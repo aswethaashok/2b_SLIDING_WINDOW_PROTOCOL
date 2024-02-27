@@ -11,7 +11,7 @@ B Tech IT
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-###client:
+## CLIENT:
 import socket
 
 s=socket.socket()
@@ -31,7 +31,7 @@ s=int(input("Enter Window size:"))
 st=0
 
 i=0
-###server:
+## SERVER:
 while True:
 
     while(i<len(l)):
@@ -48,10 +48,10 @@ while True:
             
             i+=s
 ## OUPUT
-###CLIENT:
+### CLIENT:
 ![Screenshot 2024-02-27 142639](https://github.com/aswethaashok/2b_SLIDING_WINDOW_PROTOCOL/assets/149987410/4f8f00a5-56e7-40b1-ac5d-084f6f48e467)
 
-###SERVER:
+### SERVER:
 ![Screenshot 2024-02-27 142701](https://github.com/aswethaashok/2b_SLIDING_WINDOW_PROTOCOL/assets/149987410/bbbed0c0-5c7a-44d4-aef8-8e5a37250d50)
 
 
