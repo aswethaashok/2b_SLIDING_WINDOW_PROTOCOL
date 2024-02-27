@@ -12,7 +12,9 @@ B Tech IT
 6. Stop the Program
 ## PROGRAM
 import socket
+
 s=socket.socket()
+
 s.bind(('localhost',8000))
 s.listen(5)
 c,addr=s.accept()
